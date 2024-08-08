@@ -1,0 +1,115 @@
+/* Card Title */
+.card .card-title {
+  margin-bottom: 20px;
+  color: white;
+}
+
+/* Links */
+.card a,
+.card a b {
+  color: white;
+  text-decoration: none;
+}
+
+.card span {
+  color: white;
+}
+
+.link b:hover {
+  color: goldenrod;
+}
+
+/* Horizontal Line */
+.hr-line {
+  border: none;
+  border-top: 3px solid goldenrod;
+  margin: 10px auto;
+  width: 50%;
+}
+
+/* Form Card */
+.card-form {
+  border: 2px solid goldenrod;
+  border-radius: 15px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
+  background-color: whitesmoke;
+  padding: 50px;
+  color: rgb(18, 36, 55);
+  margin: 100px 250px;
+  text-align: center;
+  align-items: center;
+}
+
+/* Address Card */
+.card-address {
+  text-align: center;
+  color: rgb(18, 36, 55);
+  margin-bottom: 100px;
+}
+
+/* Map Container */
+.map-container {
+  width: 100%;
+  max-width: 500px; /* Ensures the map does not exceed its original width */
+  margin: 0 auto; /* Center the map */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+  margin-top: 20px;
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 300px; /* Keeps the original height */
+  border: none;
+}
+
+/* Submit Button */
+.btnSubmit {
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgb(18, 36, 55);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btnSubmit:hover {
+  background-color: goldenrod;
+}
+
+/* Input Focus */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+  border-color: goldenrod;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1200px) {
+  .card-address {
+    margin: 30px 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-form,
+  .card-address {
+    margin: 30px 20px;
+  }
+
+  .btnSubmit {
+    padding: 12px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card-form,
+  .card-address {
+    margin: 30px 10px;
+  }
+}
+

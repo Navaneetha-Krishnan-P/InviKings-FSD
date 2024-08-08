@@ -1,0 +1,66 @@
+.feedback-list {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.feedback-list p {
+    margin-bottom: 80px;
+}
+
+.feedback {
+    background-image: linear-gradient(to right,
+            rgba(18, 36, 55, 0.6),
+            rgba(18, 36, 55, 0.7)),
+        url("https://static.vecteezy.com/system/resources/previews/025/876/337/non_2x/gold-bar-with-stocks-graph-representing-financial-investment-gold-stock-market-wealth-money-trade-exchange-generative-ai-free-photo.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 20px;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.feedback-head {
+    text-align: center;
+    color: rgb(28, 55, 83);
+
+}
+
+.feedback-tail {
+    text-align: center;
+    color: rgb(28, 55, 83);
+    margin-bottom: 60px;
+}
+
+
+@media (min-width: 576px) {
+    .feedback-list {
+        padding: 50px 100px;
+    }
+
+    .feedback {
+        margin: 30px 100px;
+    }
+}
+
+@media (min-width: 768px) {
+    .feedback-list {
+        padding: 70px 150px;
+    }
+
+    .feedback {
+        margin: 40px 150px;
+    }
+}
+
+@media (min-width: 992px) {
+    .feedback-list {
+        padding: 80px 200px;
+    }
+
+    .feedback {
+        margin: 50px 150px 70px 150px;
+    }
+}

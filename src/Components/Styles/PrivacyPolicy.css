@@ -1,0 +1,47 @@
+.pp-text {
+    padding: 20px;
+    color: rgb(61, 59, 59);
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px; /* Reduced top margin */
+    margin-bottom: 20px; /* Reduced bottom margin */
+}
+
+.pp-heading {
+    color: rgb(28, 55, 83);
+    margin-top: 50px; 
+}
+
+.pp-text p, 
+.pp-text ul,
+.pp-text li {
+    margin-top: 30px;
+}
+
+.pp-text ul {
+    padding-left: 40px; 
+}
+
+@media (min-width: 768px) {
+    .pp-text {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .pp-text {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .pp-text {
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+}
+
+
+

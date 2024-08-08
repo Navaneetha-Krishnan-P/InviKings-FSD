@@ -1,0 +1,113 @@
+.aboutus-container2 {
+    margin: 50px 10px;
+  }
+  .aboutus-flex {
+    background-image: linear-gradient(
+        to right, 
+        rgba(18, 36, 55, 0.6), 
+        rgba(18, 36, 55, 0.7)  
+      ), 
+      url("https://static.vecteezy.com/system/resources/previews/025/876/337/non_2x/gold-bar-with-stocks-graph-representing-financial-investment-gold-stock-market-wealth-money-trade-exchange-generative-ai-free-photo.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    border-radius: 10px;
+    color: white; 
+  }
+  
+  .aboutus-part1 {
+    margin-top: 50px;
+  }
+  
+  .aboutus-yellow-line {
+    border: none;
+    border-top: 3px solid goldenrod; 
+    margin: 10px 0;
+    width: 50%;
+  }
+  
+  .aboutus-btn-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .aboutus-btn-flex button {
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: rgb(28, 55, 83);
+  }
+  
+  .line {
+    border: none;
+    border-top: 3px solid goldenrod; 
+    margin: 10px auto;
+    width: 100%;
+  }
+  
+  .aboutus-btn-flex button:hover {
+    background-color: rgb(248, 199, 73);
+  }
+  
+  .aboutus-text {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-size: large;
+    background-color: whitesmoke;
+    padding: 50px;
+    border: 2px solid rgb(248, 199, 73);
+    border-radius: 10px;
+    color: rgb(28, 55, 83);
+  }
+  
+  .aboutus-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+
+  @media (max-width: 767px) {
+    .aboutus-image {
+      margin-top: 30px; 
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .aboutus-container2 {
+      margin: 50px 50px;
+    }
+  
+    .aboutus-flex {
+      flex-direction: row;
+      justify-content: space-between;
+      column-gap: 50px;
+    }
+  
+    .aboutus-image {
+      max-width: 60%; 
+      margin-top: 0; 
+    }
+  
+    .aboutus-part1 {
+      max-width: 40%; 
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .aboutus-container2 {
+      margin: 50px 200px;
+    }
+  
+    .aboutus-flex {
+      column-gap: 100px; 
+    }
+  }
+  
+  

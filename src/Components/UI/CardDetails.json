@@ -1,0 +1,30 @@
+[
+  {
+    "riName": "Magneta",
+    "onePrice": "10",
+    "threePrice": "25",
+    "sixPrice": "35",
+    "annualPrice": "50"
+  },
+  {
+    "riName": "Magneta Support",
+    "onePrice": "10",
+    "threePrice": "25",
+    "sixPrice": "35",
+    "annualPrice": "50"
+  },
+  {
+    "riName": "SPTI",
+    "onePrice": "5",
+    "threePrice": "10",
+    "sixPrice": "15",
+    "annualPrice": "25"
+  },
+  {
+    "riName": "All",
+    "onePrice": "20",
+    "threePrice": "40",
+    "sixPrice": "60",
+    "annualPrice": "90"
+  }
+]
