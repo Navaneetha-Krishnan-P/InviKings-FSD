@@ -14,9 +14,9 @@ export const AboutUs = () => {
   return (
     <div className='aboutus-container'>
       <div className="card">
-        <h1 className="card-title" style={{fontSize:"70px"}}>Invikings</h1><br/>
+        <h1 className="card-title" style={{fontSize:"70px"}}>Invikings</h1>
         <h5 className="card-subtitle" style={{color:"goldenrod"}}><i>Your Royal Path to Financial Sovereignty</i></h5>
-      </div><br/><br/>
+      </div><br/>
       <div className='aboutus-container2'>
         <div className='aboutus-flex'>
           <div className='aboutus-part1'>

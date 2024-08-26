@@ -2,8 +2,11 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import "../Styles/RoyalIndicators.css"
 import { Card } from "../UI/Card.jsx"
+import { BookNow } from '../UI/BookNow';
 
 export const RoyalIndicators = () => {
+
+
   return (
     <div>
       <div className="card">
@@ -76,6 +79,7 @@ export const RoyalIndicators = () => {
        <div className='ri-container5'>
         <p><b>Elevate your trading experience with the Magneta and Magneta Support Indicators Package where precision meets profitability. Harness the power of anticipation and dynamic trading to redefine your success in the financial markets.</b></p>
        </div>
+       
 
     </div>
 

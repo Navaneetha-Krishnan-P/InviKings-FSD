@@ -43,7 +43,7 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <h4 className='feedback-tail'>Explore more, to know about our Novice Knight Courses and Profit Surges !</h4>
+      <h4 className='feedback-tail'>Explore more, to know about our Revenue Revolution and Royal Indicators !</h4>
     </div>
   );
 };

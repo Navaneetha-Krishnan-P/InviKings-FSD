@@ -30,11 +30,13 @@
   .card-title {
     font-size: 3em;
     animation: fadeInUp 2s ease-in-out;
+    padding: 20px;
   }
   
   .card-subtitle {
     font-size: 1.5em;
     animation: fadeInUp 3s ease-in-out;
+    padding: 20px;
   }
   
   @keyframes fadeInUp {

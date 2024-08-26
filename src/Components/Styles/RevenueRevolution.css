@@ -1,0 +1,234 @@
+.profit-surge-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.nkc-head {
+    text-align: center;
+    margin: 70px 0px;
+    color: rgb(28, 55, 83);
+}
+
+.profit-surge-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-left {
+    max-width: 450px; 
+    flex: 1; 
+}
+
+.card-right {
+    max-width: 350px; 
+    text-align: center;
+    padding: 10px;
+    flex: 1; 
+}
+
+.workshop-image {
+    width: 100%;
+    height: auto; 
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 2rem;
+    color: #122437;
+    margin: 30px 0 10px 0;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 1rem;
+    color: #122437;
+    font-weight: bold;
+    text-align: center;
+}
+
+.divider {
+    border: none;
+    height: 3px;
+    background-color: goldenrod;
+    width: 100%;
+}
+
+.description {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #7a7a7a;
+}
+
+.workshop-title {
+    font-size: 1.2rem;
+    color: #122437;
+    font-weight: bold;
+}
+
+.benefits-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 40px 0;
+    color: #7a7a7a;
+}
+
+.benefits-list li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.benefits-list li:before {
+    margin-right: 10px;
+    color: #FFCC00;
+}
+
+.pricing-section {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.price {
+    font-size: 2rem;
+    color: #122437;
+    margin-bottom: 20px;
+}
+
+.buy-now {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.buy-now:hover {
+    background-color: goldenrod;
+}
+
+.details-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.details-list li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #7a7a7a;
+}
+
+.details-list li span {
+    font-weight: bold;
+    color: #122437;
+}
+
+.challenges {
+    margin: 70px 0px;
+}
+
+@media (max-width: 1024px) {
+    .profit-surge-card {
+        min-height: 600px;
+        padding: 20px;
+    }
+
+    .title {
+        font-size: 1.8rem;
+    }
+
+    .subtitle, .description, .workshop-title {
+        font-size: 0.9rem;
+    }
+
+    .benefits-list li, .details-list li {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .profit-surge-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profit-surge-card {
+        max-width: 100%;
+    }
+
+    .card-left, .card-right {
+        max-width: 100%;
+    }
+
+    .title {
+        font-size: 1.6rem;
+    }
+
+    .subtitle, .description, .workshop-title {
+        font-size: 0.85rem;
+    }
+
+    .benefits-list li, .details-list li {
+        font-size: 0.85rem;
+    }
+
+    .buy-now {
+        padding: 8px 15px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .nkc-head h2 {
+        font-size: 1.5rem;
+    }
+
+    .title {
+        font-size: 1.4rem;
+    }
+
+    .subtitle, .description, .workshop-title {
+        font-size: 0.8rem;
+    }
+
+    .buy-now {
+        padding: 6px 12px;
+        font-size: 0.9rem;
+    }
+
+    .benefits-list li, .details-list li {
+        font-size: 0.8rem;
+    }
+
+    .divider {
+        height: 2px;
+    }
+}
+
+
+
+
+
+
+
+

@@ -23,13 +23,18 @@ export const Navbar = () => {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/noviceKnightCourses" className="nav-link" style={{ color: pathname === "/noviceKnightCourses" ? "goldenrod" : "initial" }}>
-                                <b>NOVICE KNIGHT COURSES</b>
+                            <Link to="/revenueRevolution" className="nav-link" style={{ color: pathname === "/revenueRevolution" ? "goldenrod" : "initial" }}>
+                                <b>REVENUE REVOLUTION</b>
                             </Link>
                         </li>
                         <li className="nav-item">
                             <Link to="/royalIndicators" className="nav-link" style={{ color: pathname === "/royalIndicators" ? "goldenrod" : "initial" }}>
                                 <b>ROYAL INDICATORS</b>
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/crownMembership" className="nav-link" style={{ color: pathname === "/crownMembership" ? "goldenrod" : "initial" }}>
+                                <b>CROWN MEMBERSHIP</b>
                             </Link>
                         </li>
                         <li className="nav-item">

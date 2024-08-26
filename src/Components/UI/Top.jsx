@@ -20,7 +20,7 @@ export const Top = () => {
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><CiFacebook size={20}  /></a>
             <a href="https://youtube.com/@invikings7?si=Jr8BotqCGBwlGccd" target="_blank" rel="noopener noreferrer"><TfiYoutube size={17} /></a>
             <a href="https://www.instagram.com/invikings?igsh=OHkwemNmdDh2cHZy" target="_blank" rel="noopener noreferrer"><FaInstagram size={17} /></a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><SlSocialTwitter size={16} /></a>
+            {/* <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><SlSocialTwitter size={16} /></a> */}
           </div>
         </div>
       </div>

@@ -1,0 +1,85 @@
+
+
+.crown-container {
+  margin: 100px 150px;
+  padding: 20px;
+}
+
+.crown-flex {
+  background-image: url("../../assets/CrownBg.png");
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  color: black;
+  padding: 50px;
+  background-color: rgb(235, 234, 234);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.crown-part1 {
+  margin: 20px;
+  text-align: center;
+}
+
+.crown-yellow-line {
+  border: none;
+  border-top: 3px solid goldenrod;
+  margin: 10px auto;
+  width: 50%;
+}
+
+.crown-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .crown-container {
+    margin: 70px 20px;
+    padding: 10px;
+  }
+
+  .crown-flex {
+    padding: 30px;
+    background-size: conta; 
+  }
+
+  .crown-part1 {
+    margin: 20px;
+    text-align: center;
+  }
+
+  .crown-image img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .crown-container {
+    margin: 50px 20px;
+    padding: 10px;
+  }
+
+  .crown-flex {
+    padding: 20px;
+    background-size: contain; 
+  }
+
+  .crown-part1 {
+    margin: 10px;
+  }
+
+  .crown-yellow-line {
+    width: 80%;
+  }
+}
+
+
+
+  
